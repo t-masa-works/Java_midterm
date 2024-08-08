@@ -23,17 +23,17 @@ public class ProgramRun {
 					break;
 				}
 				case 1: {
-					FizzBuzz.main(args);
+					FizzBuzz.run(args);
 					loop = false;
 					break;
 				}
 				case 2: {
-					Calculator.main(args);
+					Calculator.run(args);
 					loop = false;
 					break;
 				}
 				case 3: {
-					Sort.main(args);
+					Sort.run(args);
 					loop = false;
 					break;
 				}

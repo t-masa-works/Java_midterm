@@ -2,7 +2,7 @@ package midterm;
 
 public class FizzBuzz {
 
-	public static void main(String[] args) {
+	public static void run(String[] args) {
 		//		【問1】FizzBuzzプログラム
 		//		以下の条件を満たすプログラムを作成してください。
 		//		1から100まで繰り返す

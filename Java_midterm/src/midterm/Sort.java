@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Sort {
 
-	public static void main(String[] args) {
+	public static void run(String[] args) {
 		//		【問3】ソートプログラム
 		//		以下の条件を満たすプログラムを作成してください。
 		//		配列のサイズを入力させる（1次元配列）

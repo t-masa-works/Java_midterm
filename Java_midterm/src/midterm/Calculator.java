@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-	public static void main(String[] args) {
+	public static void run(String[] args) {
 		//		【問2】電卓プログラム
 		//		以下の条件を満たすプログラムを作成してください。
 		//		処理はユーザーの「続行 / 終了」を聞いて、「終了」を選択された時にプログラムを終了する
