@@ -13,6 +13,7 @@ public class ProgramRun {
 				System.out.println("0:終了する");
 				System.out.println("1:FizzBuzzプログラム");
 				System.out.println("2:電卓プログラム");
+				System.out.println("3:ソートプログラム");
 				int select_number = input_number.nextInt();
 
 				switch (select_number) {
@@ -28,6 +29,11 @@ public class ProgramRun {
 				}
 				case 2: {
 					Calculator.main(args);
+					loop = false;
+					break;
+				}
+				case 3: {
+					Sort.main(args);
 					loop = false;
 					break;
 				}
